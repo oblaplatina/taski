@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Marko+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <a href="index.html" class="logo">
+                        <img src="images/logo.svg" alt="">
+                    </a>
+                    <h3 class="brand-name">YOUR BRAND</h3>
+                    <nav class="menu">
+                        <ul class="menu-list">
+                            <li class="menu-link active"><a href="about.html">About us</a></li>
+                            <li class="menu-link"><a href="#">Products</a></li>
+                            <li class="menu-link"><a href="#">How we work</a></li>
+                            <li class="menu-link"><a href="#">Blog</a></li>
+                            <li class="menu-link"><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="menu-lang">
+                        <div class="lang-select">
+                            <a href="#" class="flag-icon">En
+                                <img src="images/flag-en.svg" alt="English language">
+                            </a>
+                            <img src="images/lang-arrow.svg" alt="" class="arrow-icon">
+                        </div>
+                        <div class="lang-dropdown">
+                            <a href="#" class="lang-option">Es
+                                <img src="images/flag-es.svg" alt="">
+                            </a>
+                            <a href="#" class="lang-option">De
+                                <img src="images/flag-de.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="about-us-container">
+            <div class="about-us-inner">
+                <h1 class="about-us-title">About us</h1>
+                <div class="about-us-subtitle">
+                    <p>Sunt voluptatibus reprehenderit quo non unde quis odio. Quis nobis neque laudantium alias fugiat
+                        repellat. Qui ullam quas iusto qui eum et temporibus. <span class="highlight">Veritatis</span>
+                        repudiandae perferendis esse
+                        repellendus doloribus voluptatem iste autem. Tempore aspernatur est qui sed sed quia.</p>
+                    <p>Consequatur sapiente tenetur. Libero totam et vel cupiditate quo quidem. Nobis dolore amet. Sit
+                        voluptas ut. Eos quis natus sapiente esse odit sint culpa aut. Mollitia <span
+                            class="highlight">qui quam iste</span> assumenda
+                        ullam.</p>
+                </div>
+            </div>
+            <img src="images/crossed_flags.svg" alt="" class="crossed-flags-img">
+        </section>
+    </main>
+
+    <section class="team-container">
+        <h2 class="team-title">Meet the team</h2>
+        <div class="team-inner">
+            <div class="team-nav">
+                <nav class="team-nav-title">
+                    <ul class="team-nav-list">
+                        <li class="team-nav-item" id="nav-management" onclick="selectTeam('management')">Management</li>
+                        <li class="team-nav-item" id="nav-product" onclick="selectTeam('product')">Product</li>
+                        <li class="team-nav-item" id="nav-marketing" onclick="selectTeam('marketing')">Marketing</li>
+                        <li class="team-nav-item" id="nav-design" onclick="selectTeam('design')">Design</li>
+                        <li class="team-nav-item" id="nav-development" onclick="selectTeam('development')">Development
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="team-cards-management" class="team-cards team-cards-management">
+                <div class="profile-card">
+                    <div class="profile-card-content profile-card-front">
+                        <img src="images/vicky-russ.jpg" alt="" class="profile-card-ava">
+                        <h3 class="profile-card-title">Vicky Russ</h3>
+                        <p class="profile-card-subtitle">CTO FOR APPLICATION DEVELOPMENT</p>
+                        <p class="profile-card-view">View profile</p>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-card-content profile-card-front">
+                        <img src="images/rot-mitt.jpg" alt="" class="profile-card-ava">
+                        <h3 class="profile-card-title">Rot Mitt</h3>
+                        <p class="profile-card-subtitle">CTO FOR COMMUNICATIONS NETWORKS</p>
+                        <p class="profile-card-view">View profile</p>
+                    </div>
+                    <div class="profile-card-content profile-card-back">
+                        <img src="images/rot-mitt-back.jpg" alt="" class="profile-card-ava-back">
+                        <h3 class="profile-card-title-back">Rot Mitt</h3>
+                        <p class="profile-card-view-back">View profile</p>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-card-content profile-card-front">
+                        <img src="images/laura-hanz.jpg" alt="" class="profile-card-ava">
+                        <h3 class="profile-card-title">Laura Hanz</h3>
+                        <p class="profile-card-subtitle">CEO</p>
+                        <p class="profile-card-view">View profile</p>
+                    </div>
+                    <div class="profile-card-content profile-card-back">
+                        <img src="images/laura-hanz-back.jpg" alt="" class="profile-card-ava-back">
+                        <h3 class="profile-card-title-back">Laura Hanz</h3>
+                        <p class="profile-card-view-back">View profile</p>
+                    </div>
+                </div>
+
+                <div class="profile-card">
+                    <div class="profile-card-content profile-card-front">
+                        <img src="images/elena-wood.jpg" alt="" class="profile-card-ava">
+                        <h3 class="profile-card-title">Elena Wood</h3>
+                        <p class="profile-card-subtitle">DEPUTY CHIEF EXECUTIVE OFFICER</p>
+                        <p class="profile-card-view">View profile</p>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-card-content profile-card-front">
+                        <img src="images/aman-nais.jpg" alt="" class="profile-card-ava">
+                        <h3 class="profile-card-title">Aman Nais</h3>
+                        <p class="profile-card-subtitle">CTO FOR APPLICATION DEVELOPMENT</p>
+                        <p class="profile-card-view">View profile</p>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-card-content profile-card-front">
+                        <img src="images/francisca-lemon.jpg" alt="" class="profile-card-ava">
+                        <h3 class="profile-card-title">Francisca Lemon</h3>
+                        <p class="profile-card-subtitle">MANAGING DIRECTOR</p>
+                        <p class="profile-card-view">View profile</p>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-card-content profile-card-front">
+                        <img src="images/reine-tais.jpg" alt="" class="profile-card-ava">
+                        <h3 class="profile-card-title">Reine Tais</h3>
+                        <p class="profile-card-subtitle">MANAGING DIRECTOR</p>
+                        <p class="profile-card-view">View profile</p>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-card-content profile-card-front">
+                        <img src="images/olgur-monz.jpg" alt="" class="profile-card-ava">
+                        <h3 class="profile-card-title">Olgur Monz</h3>
+                        <p class="profile-card-subtitle">PRODUCT DESIGNER</p>
+                        <p class="profile-card-view">View profile</p>
+                    </div>
+                </div>
+            </div>
+            <div id="team-cards-product" class="team-cards team-cards-product hidden">
+                <!-- Карточки для раздела Product -->
+            </div>
+            <div id="team-cards-marketing" class="team-cards team-cards-marketing hidden">
+                <!-- Карточки для раздела Marketing -->
+            </div>
+            <div id="team-cards-design" class="team-cards team-cards-design hidden">
+                <!-- Карточки для раздела Design -->
+            </div>
+            <div id="team-cards-development" class="team-cards team-cards-development hidden">
+                <!-- Карточки для раздела Development -->
+            </div>
+            <p id="load-more-btn" class="load-more" onclick="loadMoreCards()">Load more</p>
+            <div id="profile-modal" class="modal hidden">
+                <div class="modal-content">
+                    <div class="modal-close">
+                        <img src="images/close-icon-modal.svg" alt="Close" class="close-btn" onclick="closeModal()">
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-image">
+                            <img id="modal-image" src="images/rot-mitt-full-size.webp" loading="lazy"
+                                alt="Profile Image">
+                        </div>
+                        <div class="modal-info">
+                            <h3 id="modal-name" class="modal-title">Rot Mitt</h3>
+                            <p id="modal-description-1" class="modal-description"></p>
+                            <p id="modal-description-2" class="modal-description"></p>
+                            <div class="modal-socials">
+                                <a href="#" id="social-medium" class="social-icon"><img src="" alt="Medium"></a>
+                                <a href="#" id="social-instagram" class="social-icon"><img src="" alt="Instagram"></a>
+                                <a href="#" id="social-linkedin" class="social-icon"><img src="" alt="LinkedIn"></a>
+                            </div>
+                            <blockquote id="modal-quote" class="modal-quote"></blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="quote-section">
+        <div class="quote-content">
+            <div class="quote-icon">
+                <img src="images/quote-icon.svg" alt="Quote Icon">
+            </div>
+            <blockquote class="quote-text">
+                “Lusto iure id ad. Doloremque et molestiae perspiciatis quis voluptas ut sed. Omnis praesentium
+                doloremque ipsa eveniet. Itaque aut ea accusantium error impedit impedit. Minima quisquam fuga sed
+                maxime vitae non fuga. Quo asperiores ut autem unde mollitia.”
+            </blockquote>
+            <cite class="quote-author">Lorem Ipsum</cite>
+        </div>
+    </section>
+    <section class="values-section">
+        <h2 class="values-title">Our values stem from the following four roots:</h2>
+
+        <div class="value-item">
+            <div class="value-inner">
+                <div class="value-number">
+                    <img src="images/one-vector.svg" alt="Number 1" class="value-number-img">
+                </div>
+                <div class="value-content">
+                    <h3 class="value-heading">Transparency</h3>
+                    <p class="value-description">Omnis praesentium doloremque ipsa eveniet. Itaque aut ea accusantium
+                        error
+                        impedit impedit. Minima quisquam fuga sed maxime vitae non fuga.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="value-item">
+            <div class="value-inner">
+                <div class="value-number">
+                    <img src="images/two-vector.svg" alt="Number 2" class="value-number-img">
+                </div>
+                <div class="value-content">
+                    <h3 class="value-heading">Communication</h3>
+                    <p class="value-description">Omnis praesentium doloremque ipsa eveniet. Itaque aut ea accusantium
+                        error impedit impedit. Minima quisquam fuga sed maxime vitae non fuga.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="value-item">
+            <div class="value-inner">
+                <div class="value-number">
+                    <img src="images/three-vector.svg" alt="Number 3" class="value-number-img">
+                </div>
+                <div class="value-content">
+                    <h3 class="value-heading">Responsibility</h3>
+                    <p class="value-description">Omnis praesentium doloremque ipsa eveniet. Itaque aut ea accusantium
+                        error
+                        impedit impedit. Minima quisquam fuga sed maxime vitae non fuga.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="value-item">
+            <div class="value-inner">
+                <div class="value-number">
+                    <img src="images/four-vector.svg" alt="Number 4" class="value-number-img">
+                </div>
+                <div class="value-content">
+                    <h3 class="value-heading">Initiative</h3>
+                    <p class="value-description">Omnis praesentium doloremque ipsa eveniet. Itaque aut ea accusantium
+                        error
+                        impedit impedit. Minima quisquam fuga sed maxime vitae non fuga.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+    <section class="jobs-info">
+        <div class="jobs-info-container">
+            <img src="images/online_research.svg" alt="" class="jobs-info-img">
+            <div class="jobs-info-inner">
+                <h2 class="jobs-info-title">See our open positions</h2>
+                <div class="jobs-info-subtitle">
+                    <p>Our personnel policy is to create the most international workforce possible and weld it together
+                        as a team.</p>
+                </div>
+            </div>
+            <div class="jobs-button-shadow">
+                <a href="#" class="jobs-btn">See jobs</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="footer-brand-logo">
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo.svg" alt="Your Brand Logo" class="footer-logo-img">
+                    </a>
+                    <h3 class="footer-brand-name">YOUR BRAND</h3>
+                </div>
+                <p class="footer-description">
+                    Corporis ut aliquid qui molestiae. Sed laborum sunt recusandae animi dolore voluptates.
+                </p>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><img src="images/Facebook.svg" alt="Facebook"></a>
+                    <a href="#" class="social-link"><img src="images/twitter.svg" alt="Twitter"></a>
+                    <a href="#" class="social-link"><img src="images/instagram.svg" alt="Instagram"></a>
+                </div>
+                <p class="footer-copyright">
+                    &copy;2020 All rights reserved
+                </p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column-product">
+                    <div class="footer-column">
+                        <h3 class="footer-title">Product</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Download</a></li>
+                            <li><a href="#" class="footer-link">Pricing</a></li>
+                            <li><a href="#" class="footer-link">Locations</a></li>
+                            <li><a href="#" class="footer-link">Server</a></li>
+                            <li><a href="#" class="footer-link">Countries</a></li>
+                            <li><a href="#" class="footer-link">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-column-company">
+                    <div class="footer-column">
+                        <h3 class="footer-title">Engage</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">ECT</a></li>
+                            <li><a href="#" class="footer-link">FAQ</a></li>
+                            <li><a href="#" class="footer-link">Tutorials</a></li>
+                            <li><a href="#" class="footer-link">About Us</a></li>
+                            <li><a href="#" class="footer-link">We're hiring!</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-column-privacy">
+                    <div class="footer-column">
+                        <h3 class="footer-title">Privacy</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Privacy</a></li>
+                            <li><a href="#" class="footer-link">Terms of Use</a></li>
+                            <li><a href="#" class="footer-link">Site Map</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="translate.js"></script>
+    <script src="js/card-team.js"></script>
+</body>
+
+</html>
